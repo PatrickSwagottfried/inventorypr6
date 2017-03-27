@@ -1,0 +1,15 @@
+{
+  "name": "myvendor/inventory",
+  "type": "typo3-cms-extension",
+  "version": "1.0.0",
+  "description": "...",
+  "require": {
+    "typo3/cms-core": ">=7.6.0,<8.5.99"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "MyVendor\\Inventory\\": "Classes/"
+    }
+  }
+}
