@@ -1,15 +1,22 @@
 {
-  "name": "myvendor/inventory",
-  "type": "typo3-cms-extension",
-  "version": "1.0.0",
-  "description": "...",
-  "require": {
-    "typo3/cms-core": ">=7.6.0,<8.5.99"
-  },
-
-  "autoload": {
-    "psr-4": {
-      "MyVendor\\Inventory\\": "Classes/"
-    }
-  }
+	"name": "MyVendor/Inventory",
+	"type": "typo3-cms-extension",
+	"description": "",
+	"minimum-stability": "alpha",
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Patrick Gottfried",
+			"email": "patrick_gottfried@yahoo.de"
+		}
+	],
+	"replace": {
+         "inventory": "self.version",
+         "typo3-ter/inventory": "self.version"
+       },
+	"autoload": {
+		"psr-4": {
+			"MyVendor\\Inventory\\": "Classes/"
+		}
+	}
 }
